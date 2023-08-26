@@ -1,0 +1,19 @@
+.sairpagina{
+    margin-top: 20px;
+   
+}
+
+.elemento-animado {
+    opacity: 0; /* Define a opacidade inicial como 0 para tornar os elementos invisíveis */
+    transform: translateY(-5px); /* Desloca os elementos 50px para cima */
+    animation: entrada 1s forwards; /* Aplica a animação de entrada com duração de 1 segundo */
+  }
+
+  /* Definição da animação usando @keyframes */
+  @keyframes entrada {
+    to {
+      opacity: 1; /* Opacidade final é 1, tornando os elementos visíveis */
+      transform: translateY(0); /* Retorna os elementos à posição original (sem deslocamento vertical) */
+    }
+  }
+
